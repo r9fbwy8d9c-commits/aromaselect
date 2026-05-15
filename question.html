@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noir&Blanc — Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+        <h1 div class="logo">Noir&Blanc</h1>
+<a href="media/panda.jpg" alt="лого"> </a>
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="burger">
+    <span></span>
+    <span></span>
+    <span></span>
+</label>
+        <nav class="nav">
+                <a href="index.html">Главная</a>
+                <a href="price.html">Услуги и цены</a>
+                <a href="parfum.html">Парфюм</a>
+                <a href="contact.html">Контакты</a>
+                <a href="register.html">Авторизация</a>
+                <a href="question.html">Вопросы - ответы</a>
+
+        </nav>
+    </header>
+<section id="faq" class="faq-section">
+  <div class="faq-wrapper">
+    <h2>Вопросы и ответы 🐼</h2>
+    <p>Здесь вы найдёте ответы на самые частые вопросы наших клиентов.</p>
+
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">Как оформить заказ?</div>
+        <div class="faq-answer">Выберите понравившийся аромат, добавьте его в корзину и оформите заказ через форму на сайте. Мы свяжемся с вами для подтверждения!</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Доставка по России бесплатная?</div>
+        <div class="faq-answer">Да, при заказе от 5000 рублей доставка по России бесплатная. Мы также доставляем по СНГ и Европе.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Можно ли вернуть товар?</div>
+        <div class="faq-answer">Да, в течение 14 дней при сохранении упаковки и товарного вида. Просто напишите нам через форму обратной связи!</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-question">Ваши духи оригинальные?</div>
+        <div class="faq-answer">Конечно! Мы работаем только с сертифицированными поставщиками селективной парфюмерии.</div>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+    <footer>
+        <p>© 2025 Noir&Blanc. Все права защищены.</p>
+    </footer>
+<script>
+  document.querySelectorAll('.faq-question').forEach(item => {
+    item.addEventListener('click', () => {
+      item.parentElement.classList.toggle('active');
+    });
+  });
+</script>
+</body>
