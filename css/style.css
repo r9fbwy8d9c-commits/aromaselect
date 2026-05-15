@@ -1,0 +1,134 @@
+/* === Общие стили === */
+body {
+    margin: 0;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* === Шапка === */
+header {
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 6px solid #f7cce3; /* нежно-розовый акцент */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+    color: #f7cce3;
+}
+
+/* === Навигация === */
+nav {
+    margin-top: 12px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #f7cce3;
+}
+
+/* === Контейнеры === */
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fafafa;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* === Заголовки === */
+h2 {
+    color: #000000;
+    margin-bottom: 15px;
+    border-left: 6px solid #f7cce3;
+    padding-left: 10px;
+}
+
+/* === Текстовые блоки === */
+p {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+/* === Кнопки === */
+button, .btn {
+    display: inline-block;
+    background: #f7cce3;
+    color: #000000;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background: #000000;
+    color: #f7cce3;
+}
+
+/* === Картинки === */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* === Футер === */
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 6px solid #f7cce3;
+    font-size: 0.9em;
+}
+
+/* === Декор с пандой === */
+.panda-decor {
+    background: url('media/panda.jpg') no-repeat center/contain;
+    width: 120px;
+    height: 120px;
+    margin: 20px auto;
+    opacity: 0.8;
+}
+
+/* === Дополнительные акценты === */
+a {
+    color: #f7cce3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Карточки товаров (если есть) */
+.card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
